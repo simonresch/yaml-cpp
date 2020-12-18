@@ -1,0 +1,18 @@
+{
+  "name": "default-4d6167aa",
+  "displayName": "default",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "fuzz_target.cpp-e07bacc5"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1,
+      "engineArguments": [
+        "-rss_limit_mb=200"
+      ]
+    }
+  ]
+}

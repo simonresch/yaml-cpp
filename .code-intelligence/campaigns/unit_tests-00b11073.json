@@ -1,0 +1,15 @@
+{
+  "name": "unit_tests-00b11073",
+  "displayName": "unit_tests",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "unit_tests-9feb10e5"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "UNIT_TEST_RUNNER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1
+    }
+  ]
+}

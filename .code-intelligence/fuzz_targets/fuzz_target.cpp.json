@@ -1,0 +1,6 @@
+{
+  "name": "fuzz_target.cpp-e07bacc5",
+  "displayName": "fuzz_target.cpp",
+  "path": "fuzz_target.cpp",
+  "buildFlags": ["build/libyaml-cpp.a", "-Iinclude"]
+}

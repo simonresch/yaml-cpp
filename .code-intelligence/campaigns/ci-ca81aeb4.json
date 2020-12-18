@@ -1,0 +1,18 @@
+{
+  "name": "ci-ca81aeb4",
+  "displayName": "ci",
+  "maxRunTime": "600s",
+  "fuzzTargets": [
+    "fuzz_target.cpp-e07bacc5"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1,
+      "engineArguments": [
+        "-rss_limit_mb=200"
+      ]
+    }
+  ]
+}

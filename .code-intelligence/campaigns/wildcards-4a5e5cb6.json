@@ -1,0 +1,12 @@
+{
+  "name": "wildcards-4a5e5cb6",
+  "displayName": "wildcards",
+  "maxRunTime": "1200s",
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "unit_tests-9feb10e5",
+  "displayName": "unit_tests",
+  "bashUnitTest": {
+    "api": {
+      "relativePath": ".code-intelligence/fuzz_targets/unit_tests.sh"
+    }
+  }
+}

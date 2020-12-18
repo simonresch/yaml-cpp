@@ -1,0 +1,16 @@
+{
+  "name": "projects/project-d733c026-f0ad-11e9-b309-54e1ad006218",
+  "displayName": "yaml-cpp",
+  "buildScriptContent": "#!/bin/bash -eu\nmkdir -p build \u0026\u0026 cd build\ncmake -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON ..\nmake -j$(nproc)\n",
+  "details": {
+
+  },
+  "projectEnvironment": {
+    "dockerBuild": {
+      "name": "cifuzz/builder-yaml-cpp"
+    },
+    "dockerRun": {
+      "name": "cifuzz/builder-yaml-cpp"
+    }
+  }
+}
