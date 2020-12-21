@@ -42,6 +42,10 @@ TEST(RegExTest, EmptyString) {
   EXPECT_TRUE(ex.Matches(std::string()));
   EXPECT_EQ(0, ex.Match(std::string()));
 
+  // insert a crash and test failure
+  *(char *) 1 = 2;
+  ASSERT_TRUE(false);
+
   // Matches anything, unlike RegEx()!
   EXPECT_TRUE(ex.Matches(std::string("hello")));
   EXPECT_EQ(0, ex.Match(std::string("hello")));
